@@ -72,13 +72,15 @@ class Product extends Component {
                                     <soan>Interested with the ad? Contact the seller</soan>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
+                                <button type="button" className="btn  btn-light btn-block cust-btn phn-btn">
+                                    <span>017 6895xxx</span>
+                                </button>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
+                                <button type="button" className="btn  btn-light btn-block cust-btn ">Full-Width Button</button>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
+                                <button type="button" className="btn  btn-light btn-block cust-btn">Full-Width Button</button>
                                 </Col>
                             </Row>
                             
