@@ -55,7 +55,16 @@
     width: 20%;
     display: block;
 }
-
+.seller-txt{
+    display: block;
+}
+.useicon{
+    width: 20%;
+}
+.nopadding > div[class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
 @media only screen and (max-width: 600px) {
     .prod-name{
         margin-left: 0 !important;

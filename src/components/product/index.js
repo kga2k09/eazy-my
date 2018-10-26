@@ -41,12 +41,27 @@ class Product extends Component {
                                     <Col xs="12">
                                         <Row>
                                             <Col xs="12">
-                                             <p>Seller info
+                                                <Row>
+                                                    <Col xs="12">
+                                                        <p>Seller info</p>
+                                                    </Col>
+                                                </Row>
+                                                <Row className="nopadding">
+                                                    <Col xs="12">
+                                                        <img src={require("../../assets/ic_account_circle_black_36px.svg")} className="useicon" />
+                                                        <span>Takeshi Nakamura</span>
+                                                        {/* <span>Private seller</span> */}
+                                                    </Col>
+                                                    
+                                                </Row>
+                                             {/* <p>Seller info
                                                  <span>
                                                  <img src={require("../../assets/ic_account_circle_black_36px.svg")}  className="user-icon"/>
+                                                 
                                                  </span>
+                                                 <span>Takeshi Nakamura</span>
                                              
-                                             </p>
+                                             </p> */}
                                             </Col>
                                         </Row>
                                        
