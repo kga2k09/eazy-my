@@ -54,14 +54,7 @@ class Product extends Component {
                                                     </Col>
                                                     
                                                 </Row>
-                                             {/* <p>Seller info
-                                                 <span>
-                                                 <img src={require("../../assets/ic_account_circle_black_36px.svg")}  className="user-icon"/>
-                                                 
-                                                 </span>
-                                                 <span>Takeshi Nakamura</span>
-                                             
-                                             </p> */}
+    
                                             </Col>
                                         </Row>
                                        
@@ -72,6 +65,20 @@ class Product extends Component {
                                 <Col xs="5">
                                     <img src={require("../../assets/ic_share.svg")} className="share-icon" />
                                     <span className="fav-txt">Share</span>
+                                </Col>
+                            </Row>
+                            <Row className="support-div">
+                                <Col xs="12">
+                                    <soan>Interested with the ad? Contact the seller</soan>
+                                </Col>
+                                <Col xs="12">
+                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
+                                </Col>
+                                <Col xs="12">
+                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
+                                </Col>
+                                <Col xs="12">
+                                <button type="button" class="btn  btn-light btn-block">Full-Width Button</button>
                                 </Col>
                             </Row>
                             
