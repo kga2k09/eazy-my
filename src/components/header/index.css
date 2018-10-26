@@ -1,0 +1,16 @@
+.header{
+    border: 1px solid #ffffff;
+    background-color: white;
+    box-shadow: 0px 1px 10px #aaaaaa;
+    margin-top:10px;
+    border-left:none;
+    border-right:none;
+}
+
+.header-img{
+    width: 5em;
+    height: 20%;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left:30px;
+}
