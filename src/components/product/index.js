@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import './index.css'
+import './index.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class Product extends Component {
 
     render() {
@@ -30,7 +31,8 @@ class Product extends Component {
                                     </Row>
                                     <Row className="price-row">
                                         <Col xs="12">
-                                        <p className="price-tag">Price<span className="price">RM1,289</span></p>           
+                                        <p className="price-tag">Price<span className="price">
+                                           RM1,289</span></p>           
                                     </Col>
                                     <Col xs="12">
                                         <p>Item condition <span className="brand-txt">Brand new in the box</span></p>
@@ -69,18 +71,24 @@ class Product extends Component {
                             </Row>
                             <Row className="support-div">
                                 <Col xs="12">
-                                    <soan>Interested with the ad? Contact the seller</soan>
+                                    <span>Interested with the ad? Contact the seller</span>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" className="btn  btn-light btn-block cust-btn phn-btn">
-                                    <span>017 6895xxx</span>
+                                <button type="button" className="btn  btn-light btn-block cust-btn phn-btn">  
+                                    <FontAwesomeIcon icon="phone" /><span className="contact-txt">017 6895xxx</span>
                                 </button>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" className="btn  btn-light btn-block cust-btn ">Full-Width Button</button>
+                                <button type="button" className="btn  btn-light btn-block cust-btn email-btn ">
+                                    
+                                    <FontAwesomeIcon icon="envelope"/><span  className="contact-txt">Email</span>
+                                </button>
                                 </Col>
                                 <Col xs="12">
-                                <button type="button" className="btn  btn-light btn-block cust-btn">Full-Width Button</button>
+                                <button type="button" className="btn  btn-light btn-block cust-btn chat-btn">
+                                <FontAwesomeIcon icon="comments"/>
+                                    <span  className="contact-txt">Chat</span>
+                                </button>
                                 </Col>
                             </Row>
                             

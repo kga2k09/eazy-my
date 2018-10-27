@@ -28,7 +28,7 @@
 
 .share-icon{
     height:15%;
-    margin-top: 12px;
+    margin-top: 5px;
 }
 .fav-txt{
     color: #707070;
@@ -71,12 +71,29 @@
     margin-top:10px;
 }
 .cust-btn{
-    margin-top:10px;
+    margin-top:5px;
+    text-align:left;
+}
+.contact-txt{
+    padding-left:10px;
+    font-family:Open Sans, Semibold;
+    font-size:14px;
 }
 .phn-btn{
     color:#E01A1A;
     border:1px solid #E01A1A;
 }
+
+.email-btn{
+   color: #E01A1A;
+   border:1px solid #E01A1A;
+}
+
+.chat-btn{
+    background-color: #E01A1A;
+    color:#ffffff;
+}
+
 @media only screen and (max-width: 600px) {
     .prod-name{
         margin-left: 0 !important;
