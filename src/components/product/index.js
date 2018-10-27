@@ -53,7 +53,6 @@ class Product extends Component {
                                                     <Col xs="12">
                                                         <img src={require("../../assets/ic_account_circle_black_36px.svg")} className="useicon" />
                                                         <span>Takeshi Nakamura</span>
-                                                        <span className="pvtseller"> Private Seller</span> 
                                                     </Col>
                                                     
                                                 </Row>
