@@ -27,8 +27,14 @@
 }
 
 .share-icon{
-    height:15%;
+    height:10%;
     margin-top: 5px;
+}
+.pvtseller{
+    position: relative;
+    top: -10px;
+    left: 43px;
+    font-size: 15px;
 }
 .fav-txt{
     color: #707070;
@@ -73,6 +79,7 @@
 .cust-btn{
     margin-top:5px;
     text-align:left;
+    margin: 5px 0 0;
 }
 .contact-txt{
     padding-left:10px;
@@ -82,21 +89,26 @@
 .phn-btn{
     color:#E01A1A;
     border:1px solid #E01A1A;
+    background: #ffffff;
 }
 
 .email-btn{
    color: #E01A1A;
    border:1px solid #E01A1A;
+   background: #ffffff;
 }
 
 .chat-btn{
     background-color: #E01A1A;
     color:#ffffff;
 }
+.ad-txt{
+    padding-left:10px;
+}
 
 @media only screen and (max-width: 600px) {
     .prod-name{
-        margin-left: 0 !important;
+        margin-left: 10px !important;
     }
    
 } 

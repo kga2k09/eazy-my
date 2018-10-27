@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class Product extends Component {
 
     render() {
+        console.log(window.screen.width);
         return (
             <Col className="prod-col">
                 <Row className="prod-row">
@@ -52,7 +53,7 @@ class Product extends Component {
                                                     <Col xs="12">
                                                         <img src={require("../../assets/ic_account_circle_black_36px.svg")} className="useicon" />
                                                         <span>Takeshi Nakamura</span>
-                                                        {/* <span>Private seller</span> */}
+                                                        <span className="pvtseller"> Private Seller</span> 
                                                     </Col>
                                                     
                                                 </Row>
@@ -70,8 +71,9 @@ class Product extends Component {
                                 </Col>
                             </Row>
                             <Row className="support-div">
+                                
                                 <Col xs="12">
-                                    <span>Interested with the ad? Contact the seller</span>
+                                    <span className="ad-txt">Interested with the ad? Contact the seller</span>
                                 </Col>
                                 <Col xs="12">
                                 <button type="button" className="btn  btn-light btn-block cust-btn phn-btn">  
